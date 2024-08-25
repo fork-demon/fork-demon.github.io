@@ -30,5 +30,7 @@ jobs:
           ls -la
       - name: Gatsby Publish
         uses: enriikke/gatsby-gh-pages-action@v2.2.1
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
             
  
